@@ -1,0 +1,36 @@
+paket dava;
+
+importiere java.util.*;
+
+/**
+ * Eine deutsche Java-Klasse.
+ */
+öffentlich endgültig klasse Test erweitert Objekt implementiert Comparable<Test> {
+
+	/**
+	 * Eine deutsche Haupt-Operation.
+	 */
+	öffentlich fixiert nichts haupt(Textkette[] args) {
+		System.aus.druckezl("Hallo, Welt!");
+		falls (wahr || falsch) {
+			System.aus.druckezl("Test erfolgreich.");
+		} ansonsten {
+			System.aus.druckezl("Test fehlgeschlagen.");
+		}
+	}
+
+	privat fixiert Ganzzahl gebeWert(doppel d) {
+		endgültig var x = d + 13;
+		solange (wahr) {
+			versuche {
+				x += 2;
+				abbruch;
+			} fange (RuntimeException e) {
+				// tue nichts
+			} schließlich {
+
+			}
+		}
+		rückgabe (ganz)d;
+	}
+}

@@ -1,0 +1,5 @@
+offenes modul probe {
+	benötigt java.log;
+	öffnet anderes.modul;
+	versorgt test mit hehe;
+}
